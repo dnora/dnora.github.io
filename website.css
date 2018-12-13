@@ -106,6 +106,14 @@ h3{
 	color: #ffffe2;
 }
 
+h5{
+	font-family: 'OpenSans', sans-serif;
+	color: #B2D8E9;
+	text-align: center;
+	font-weight: 300;
+	font-size: 14pt;
+}
+
 p{
 	font-family: 'OpenSans', sans-serif;
 	/*font-weight: 300;*/
