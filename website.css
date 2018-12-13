@@ -52,7 +52,7 @@ div {
 .container p {
 	position: absolute;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 }
 
 .nav {
@@ -98,6 +98,12 @@ h2{
 	font-weight: 800;
 	font-size: 50pt;
 
+}
+
+h3{
+	font-family: 'GlossBloom', sans-serif;
+	font-size: 35pt;
+	color: #ffffe2;
 }
 
 p{
