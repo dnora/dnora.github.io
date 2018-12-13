@@ -1,16 +1,109 @@
+@font-face {
+font-family: Outbox;
+src: url("TheOutboxSt.ttf");
+src: url(fonts/"theoutboxst-webfont.woff2") format('woff2');
+src: url(fonts/"theoutboxst-webfont.woff") format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+	font-family: OpenSansBold;
+	src: url("OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: OpenSansLight;
+	src: url("OpenSans-Light.ttf");
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url("OpenSans.ttf");
+}
+
+@font-face {
+	font-family: GlossBloom;
+	src: url("Gloss_And_Bloom.ttf");
+}
+
+body{
+	background-image: url("site_background.png");
+	background-color: #252C64;
+	/*background-position: center;*/
+	background-size: cover;
+}
+
+div {
+	margin: 30px;
+}
+
+.container{
+	position: relative;
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+	top: 100px;
+	text-align: center;
+}
+
+.container p {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+.nav {
+	position: absolute;
+	top: -10px;
+}
+
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 800px;
+	
+}
+
+li a {
+	font-family: OpenSansLight;
+	display: block;
+	color: #ffd551;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li {
+	float: left;
+}
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
 h1{
-	font-family: Noto Sans, sans-serif
-	font-size: 40;
+	font-family: 'GlossBloom', sans-serif;
+	font-size: 60pt;
+	color: #ffffe2;
 }
 
 h2{
-	font-family: Noto Sans, sans-serif
+	font-family: 'Outbox', sans-serif;
 	font-weight: 800;
-	font-size: 54;
+	font-size: 50pt;
 
 }
 
 p{
-	font-family: Noto Sans, sans-serif
-	font-weight: 300;
+	font-family: 'OpenSans', sans-serif;
+	/*font-weight: 300;*/
+	color: #B2D8E9;
+
 }
+
