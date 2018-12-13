@@ -83,7 +83,7 @@ li {
 }
 
 li a:hover {
-	background-color: #555;
+	background-color: #3A459C;
 	color: white;
 }
 
@@ -116,7 +116,6 @@ h5{
 
 p{
 	font-family: 'OpenSans', sans-serif;
-	/*font-weight: 300;*/
 	color: #B2D8E9;
 
 }
